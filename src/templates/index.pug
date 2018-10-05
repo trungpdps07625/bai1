@@ -1,0 +1,34 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.home
+		.container
+			.row
+				.col-sm-6
+					.boxsp1
+						.title
+							img.img-fluid(src="./img/gym.jpg" alt="gym")
+							p.text2 Quận 5
+							p.text3 E-voucher
+						.content
+							p.text1 06 Tuần Tập Luyện Đẳng Cấp Cùng Huấn Luận Viên Thể Hình
+							p.text 399,000đ
+							strike 1,500,000đ
+				.col-sm-6
+					.boxsp2
+						.title
+							img.img-fluid(src="./img/gym.jpg" alt="gym")
+							p.text4 Quận 5
+							p.text5 E-voucher
+							p.text6
+								a(href="#") xem ngay
+						.content
+							p.text1 06 Tuần Tập Luyện Đẳng Cấp Cùng Huấn Luận Viên Thể Hình
+							p.text 399,000đ
+							strike 1,500,000đ
+
